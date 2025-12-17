@@ -71,7 +71,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         python3 -m pip install pytest
-        pip3 install boto3
+        pip3 install boto3==1.42.10
     - name: Submit Job (for Push)
       if: ${{ github.event_name == 'push' }}
       shell: bash
@@ -115,7 +115,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         python3 -m pip install pytest
-        pip3 install boto3
+        pip3 install boto3==1.42.10
     - name: Submit Job (for Push)
       if: ${{ github.event_name == 'push' }}
       shell: bash
@@ -159,7 +159,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         python3 -m pip install pytest
-        pip3 install boto3
+        pip3 install boto3==1.42.10
     - name: Submit Job (for Push)
       if: ${{ github.event_name == 'push' }}
       shell: bash
@@ -204,7 +204,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         python3 -m pip install pytest
-        pip3 install boto3
+        pip3 install boto3==1.42.10
     - name: Submit Job (for Push)
       if: ${{ github.event_name == 'push' }}
       shell: bash
@@ -248,7 +248,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         python3 -m pip install pytest
-        pip3 install boto3
+        pip3 install boto3==1.42.10
     - name: Submit Job (for Push)
       if: ${{ github.event_name == 'push' }}
       shell: bash
@@ -291,7 +291,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         python3 -m pip install pytest
-        pip3 install boto3
+        pip3 install boto3==1.42.10
     - name: Submit Job (for Push)
       if: ${{ github.event_name == 'push' }}
       shell: bash
@@ -333,7 +333,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         python3 -m pip install pytest
-        pip3 install boto3
+        pip3 install boto3==1.42.10
     - name: Submit Job (for Push)
       if: ${{ github.event_name == 'push' }}
       shell: bash
